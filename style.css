@@ -1,0 +1,67 @@
+body {
+    margin: 0px;
+    padding: 0px;
+}
+
+@font-face{
+    font-family: myfont;
+    src: url('./assetss/FredokaOne-Regular.ttf');
+}
+
+.container {
+    display: flex;
+
+    height: 100vh;
+    background-image: url('./images/cake-1284548_1280.jpg');
+    background-size: cover;
+}
+
+
+.left_sec {
+    display: flex;
+    align-items: center;
+    flex-flow: column;
+    justify-content: center;
+    width: 50%;
+    mix-blend-mode: overlay;
+    height: 100vh;
+    backdrop-filter: blur(16px);
+    padding: 15px;
+    background-color: rgb(255,255,255,0.5);
+}
+
+.left_sec h1{
+    font-family: "myfont";
+    letter-spacing:2px;
+    font-size: 5rem;
+    text-align: right;
+    /* mix-blend-mode: overlay; */
+}
+
+.right_sec {
+    width: 50%;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.contat_info{
+
+color: #fff;
+font-size: 20px;
+padding: 20px;
+border-radius: 20px;
+backdrop-filter: blur(30px);
+font-family: myfont;
+text-align: center;
+}
+
+
+
+.contat_info a{
+text-decoration: none;
+color: rgb(235, 137, 137);
+    }
+    
+
